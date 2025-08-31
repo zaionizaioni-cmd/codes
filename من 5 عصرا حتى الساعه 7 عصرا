@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مكافآت كباتن ناقل | الأحد 31 أغسطس 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #33cc99;
+      --text: #0f1f17;
+      --bg: #f6fbf9;
+      --border: #e0efe9;
+      --accent: #e6a500;
+      --white: #ffffff;
+      --gray: #e6f7f2;
+      --dark-green: #2c4f37;
+    }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, var(--primary), #2aad83);
+      color: var(--white);
+      border-radius: 16px;
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+    
+    .header h1 {
+      font-size: 32px;
+      margin: 0;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .header p {
+      font-size: 16px;
+      opacity: 0.9;
+      margin-top: 8px;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      border: 1px solid var(--border);
+    }
+
+    .card-title {
+      font-weight: 800;
+      font-size: 22px;
+      color: var(--dark-green);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .card-title i {
+      color: var(--primary);
+      font-size: 20px;
+    }
+
+    .rewards-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .rewards-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+      border-bottom: 1px dashed var(--border);
+    }
+
+    .rewards-item:last-child {
+      border-bottom: none;
+    }
+
+    .rewards-text {
+      font-weight: 700;
+      color: var(--dark-green);
+      font-size: 17px;
+    }
+
+    .rewards-amount {
+      font-weight: 800;
+      font-size: 20px;
+      color: var(--accent);
+      background-color: #fff9e6;
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+
+    .conditions {
+      background: var(--gray);
+      border-radius: 16px;
+      padding: 24px;
+    }
+
+    .conditions-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .condition-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+
+    .condition-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .condition-item i {
+      color: var(--primary);
+      font-size: 18px;
+      margin-top: 2px;
+    }
+
+    .telegram-card {
+      background: linear-gradient(135deg, var(--primary) 0%, #2aad83 100%);
+      color: var(--white);
+      padding: 32px;
+      border-radius: 16px;
+      overflow: hidden;
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .telegram-logo-wrapper {
+      width: 60px;
+      height: 60px;
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.18);
+      display: grid;
+      place-items: center;
+      margin-bottom: 16px;
+    }
+
+    .telegram-logo {
+      width: 32px;
+      height: 32px;
+    }
+
+    .telegram-title {
+      font-size: 24px;
+      font-weight: 800;
+      margin: 0 0 8px;
+    }
+    
+    .telegram-subtitle {
+      font-size: 16px;
+      opacity: 0.95;
+      margin: 0 0 24px;
+    }
+
+    .btn {
+      appearance: none; 
+      border: none; 
+      outline: none; 
+      cursor: pointer;
+      display: inline-flex; 
+      align-items: center; 
+      gap: 8px;
+      padding: 14px 24px; 
+      border-radius: 12px;
+      background: var(--dark-green); 
+      color: var(--white); 
+      font-weight: 700; 
+      font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 6px 12px rgba(44, 79, 55, 0.2);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .btn:hover { 
+      transform: translateY(-2px); 
+      box-shadow: 0 8px 16px rgba(44, 79, 55, 0.3); 
+    }
+
+    .btn .tg-icon { 
+      width: 18px; 
+      height: 18px; 
+    }
+    
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: #5a7565;
+      margin-top: 32px;
+      opacity: 0.8;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 16px;
+      }
+      .header {
+        padding: 30px 15px;
+      }
+      .header h1 {
+        font-size: 28px;
+      }
+      .card-title {
+        font-size: 20px;
+      }
+      .rewards-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+      .rewards-amount {
+        align-self: flex-end;
+      }
+      .telegram-card {
+        padding: 24px;
+      }
+      .telegram-title {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+    <h1>مكافآت ناقل - الاثنين 1 سبتمبر 2025</h1>
+      
+      <h2>مكافآت ناقل</h2>
+      <p>احصل على مكافآتك فور إنجاز الرحلات</p>
+        
+    </div>
+
+
+  
+
+        <div class="card">
+      <div class="card-title"><i class="fas fa-clock"></i> 5 عصراً - 7مساءً</div>
+      <ul class="rewards-list">
+        <li class="rewards-item">
+         <span class="rewards-text">2 رحلات</span>
+          <span class="rewards-amount">3,000 دينار</span>
+        </li>
+        <li class="rewards-item">
+          <span class="rewards-text">3 رحلات</span>
+          <span class="rewards-amount">6,000 دينار</span>
+        </li>
+      </ul>
+  
+
+
+    <div class="card conditions">
+      <div class="card-title"><i class="fas fa-info-circle"></i> شروط الحصول على المكافآت</div>
+      <ul class="conditions-list">
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i>
+          <span>للحصول على المكافأة يجب عليك أخذ الرحلات خلال الوقت المحدد.</span>
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i>
+          <span>سوف تُحسب المكافأة بناءً على وقت بداية الرحلة.</span>
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i>
+          <span>سوف تستلم المكافأة خلال 48 ساعة القادمة على محفظة ناقل.</span>
+        </li>
+        <li class="condition-item">
+          <i class="fas fa-check-circle"></i>
+          <span>تُحسب الرحلات ذات الوجهات المتعددة كرحلة واحدة فقط.</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="telegram-card">
+      <div class="telegram-logo-wrapper">
+        <svg class="telegram-logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.036 15.08l-.375 5.283c.537 0 .77-.231 1.048-.508l2.517-2.42 5.217 3.82c.957.528 1.63.25 1.89-.884l-3.426-16.02h.001c.304-1.418-.512-1.972-1.448-1.626L1.12 9.247C-.25 9.778-.229 10.55.886 10.9l5.31 1.658L19.42 5.54c.618-.406 1.18-.182.717.224L9.036 15.08z" fill="#fff"/>
+        </svg>
+      </div>
+      <h3 class="telegram-title">انضم لقناة «كابتن ناقل» على تليغرام</h3>
+      <p class="telegram-subtitle">كل التحديثات، التنبيهات، والمكافآت اليومية في مكان واحد.</p>
+      <a class="btn" href="https://t.me/naqeliraq" target="_blank" rel="noopener noreferrer">
+        <svg class="tg-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.036 15.08l-.375 5.283c.537 0 .77-.231 1.048-.508l2.517-2.42 5.217 3.82c.957.528 1.63.25 1.89-.884l3.426-16.02h.001c.304-1.418-.512-1.972-1.448-1.626L1.12 9.247C-.25 9.778-.229 10.55.886 10.9l5.31 1.658L19.42 5.54c.618-.406 1.18-.182.717.224L9.036 15.08z" fill="#fff"/>
+        </svg>
+        انضم الآن إلى القناة
+      </a>
+    </div>
+
+    <div class="footer">
+      ناقل — بالشراكة مع وزارة النقل العراقية © 2025
+    </div>
+
+  </div>
+</body>
+</html>
